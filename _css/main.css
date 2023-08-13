@@ -96,6 +96,7 @@ html, body  {
 	margin: 0;
 }
 body {
+	
 	background: rgb(255,252,251);
 	margin: 0 auto;
 	width: 70%;
@@ -111,6 +112,14 @@ body {
 /* Correct `block` display not defined in IE 8/9.*/
 article,aside,details,figcaption,figure,footer,header,main,nav,section,summary {
   display: block;
+}
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 /* Correct `inline-block` display not defined in IE 8/9. */
